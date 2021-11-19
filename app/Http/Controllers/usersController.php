@@ -17,8 +17,8 @@ class usersController extends Controller
         // Test database connection
                 try {
                   // DB::connection()->getPdo();
-
-                  $users=DB::select("select * from users");
+                 
+                  $users=DB::select("select u.id,u.username,r.name,u.password,u.create_at from users u,roles r where u.role_id=r.id");
                   return view('pages.users.index',['users'=>$users]);
 
                   

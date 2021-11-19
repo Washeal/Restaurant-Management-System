@@ -13,13 +13,13 @@ class OrderController extends Controller
               
     {         $table = DB::select("select id,title from tables");  
             $customer = DB::select("select id,name from customer");  
-            $products = DB::select("select id,name from manus");               
+            $products =  DB::select("select id,name from manus");               
             return view('pages.order.index',['products'=>$products,"customer"=>$customer,"tables"=>$table]);
     }
 
     public function display(){
 
-        $order=DB::select("select *from orders");
+         $order=DB::select("select o.id,c.name,o.mobile,o.time,t.title,o.remark from orders o,tables t,customer c where t.id=o.table_id and c.id=o.customer_id ");
         return view("pages.order.display",["orders"=>$order]);
     }
 

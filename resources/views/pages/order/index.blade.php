@@ -44,6 +44,7 @@
                    @foreach($tables as $table)
                  <option value="{{$table->id}}">{{$table->title}}</option>
                 @endforeach
+                </select>
                 </div>
               </div>  
               <div>

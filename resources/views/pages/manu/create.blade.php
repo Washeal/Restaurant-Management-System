@@ -18,7 +18,7 @@ welcome
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Name:</label>
+											<label>Manu Name:</label>
 											<input type="text" name="txtName" id="txtName" class="form-control">
 										</div>
 									</div>

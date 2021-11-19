@@ -38,7 +38,7 @@ welcome
                      
                       <td style="width: 5%"> {{$user->id}} </td>
                       <td style="width: 15%"> {{$user->username}} </td>
-                      <td style="width: 10%"> {{$user->role_id}} </td>
+                      <td style="width: 10%"> {{$user->name}} </td>
                       <td style="width: 15%"> {{$user->password}} </td>
                       <td style="width: 15%"> {{$user->create_at}} </td>
                      

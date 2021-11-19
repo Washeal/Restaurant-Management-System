@@ -39,10 +39,10 @@ welcome
                   <tr>
                      
                       <td > {{$order->id}} </td>
-                      <td > {{$order->customer_id}}</td>
+                      <td > {{$order->name}}</td>
                       <td > {{$order->mobile}} </td>
                       <td > {{$order->time}} </td>
-                      <td > {{$order->table_id}} </td>
+                      <td > {{$order->title}} </td>
                       <td > {{$order->remark}} </td>
                      
                      

@@ -25,7 +25,7 @@ welcome
               <thead>                
                   <tr>
                       <th>ID</th>
-                      <th> Name</th>
+                      <th> Manu Name</th>
                       <th> Price</th>
                     
                   </tr>              

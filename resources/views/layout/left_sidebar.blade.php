@@ -55,8 +55,8 @@
 							<span class="micon dw dw-house-1"></span><span class="mtext">Manu</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="{{url('/manus')}}">Table List</a></li>
-							<li><a href="{{url('/manus/create')}}">Create Table</a></li>
+							<li><a href="{{url('/manus')}}">Manu List</a></li>
+							<li><a href="{{url('/manus/create')}}">Create Manu</a></li>
 							
 							
 						</ul>
